@@ -1,0 +1,186 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <body>
+        <h1>Criando Tabela no HTML!</h1>
+        <p>A tabela é uma ferramenta utilizada para organizar dados em linhas e colunas e permitir uma 
+            melhor visualização das informações que estão sendo apresentadas.</p>
+        <p>A seguir temos uma tabela feita em HTML para conhecemos melhor os elementos básicos
+            usados para construí-las.</p>
+            
+        <h2>Os elementos básicos: tr e td</h2>
+        <p>O tr é um elemento responsável por inserir linhas em uma ttabela.</p>
+        <p>Para criarmos as células, é necessário usar o td.</p>
+
+        <h3>Exemplo 1 - Construindo uma tabela</h3>
+
+        <table border="">
+            <tr>
+                <td>
+                    a
+                </td>
+                <td>
+                    b
+                </td>
+            </tr>
+        </table>
+        
+        <h3>Exemplo 2 - Uma Tabela com Dados Reais</h3>
+
+        <table border>
+            <tr>
+                <td>Avatar</td>
+                <td>2009</td>
+                <td>Fox/Walt Disney Studios</td>
+                <td>U$2, 797, 501, 328</td>
+            </tr>
+            <tr>
+                <td>Titanic</td>
+                <td>2009</td>
+                <td>Paramout Pictures</td>
+                <td>U$2,201,647,264</td>
+            </tr>
+            <tr>
+                <td>Star Wars: O Despertar da Força</td>
+                <td>2015</td>
+                <td>Walt Disney Studios</td>
+                <td>U$2,069,521,700</td>
+            </tr>
+            <tr>
+                <td>Vingadores: Guerra Infinita</td>
+                <td>2018</td>
+                <td>Walt Disney Studios</td>
+                <td>U$2,048,359,754</td>
+            </tr>
+            <tr>
+                <td>O Rei Leão</td>
+                <td>2019</td>
+                <td>Walt Disney Studios</td>
+                <td>U$1,670,727,580</td>
+            </tr>
+            <tr>
+                <td>Jurassic World</td>
+                <td>2015</td>
+                <td>Universal Pictures</td>
+                <td>U$1,670,516,444</td>
+            </tr>
+            <tr>
+                <td>Os Vingadores</td>
+                <td>2012</td>
+                <td>Walt Disney Studios</td>
+                <td>U$1,518,815,515</td>
+            </tr>
+            <tr>
+                <td>Velozes e Furiosos 7</td>
+                <td>2015</td>
+                <td>Universal Pictures</td>
+                <td>U$1,515,341,399</td>
+            </tr>
+            <tr>
+                <td>Frozen II</td>
+                <td>2019</td>
+                <td>Walt Disney Studios</td>
+                <td>U$1,450,026,933</td>
+            </tr>
+        </table>
+
+        <h2>Uma Tabela Mais Organizada</h2>
+        <p>Para conseguir criar uma tabela ainda melhor, é necessário acrescentar mais alguns outros
+            elementos a nossa tabela. No caso esses elementos serão: thead, th, caption e tbody.</p>
+        <!--O elemento dl cria uma lista de definições, onde td marca uma palavra e o dd 
+        é o seu significado-->
+        <dl>
+            <dt>thead</dt>
+            <dd>Serve para marcar o cabeçalho da tabela, que geralmente é a sua primeira linha.</dd>    
+            <dt>th</dt>
+            <dd>Usado para definir os valores dos títulos das colunas. É utilizado apenas uma vez em cada tabela.</dd>    
+            <dt>caption</dt>
+            <dd>Trata-se de um elemento com valor semântico que define a legenda da tabela.</dd>    
+            <dt>tbody</dt>
+            <dd>Ele serve para marcar as partes da tabela que não fazem parte do cabeçalho e nem do rodapé que é marcado com tfoot.</dd>    
+        </dl>
+        
+        <h3>Exemplo 3 - Uma Tabela com Título, Títulos nas Colunas e Corpo</h3>
+        <table border=3>
+            <caption>As Maiores Bilheterias da História do Cinema de Acordo com o Mojo Box Office</caption>
+            <thead>
+                <tr>
+                    <th>Nome do Filme</th>
+                    <th>Ano do Lançamento</th>
+                    <th>Estúdio</th>
+                    <th>Total Arrecadado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Avatar</td>
+                    <td>2009</td>
+                    <td>Fox/Walt Disney Studios</td>
+                    <td>U$2, 797, 501, 328</td>
+                </tr>
+                <tr>
+                    <td>Titanic</td>
+                    <td>2009</td>
+                    <td>Paramout Pictures</td>
+                    <td>U$2,201,647,264</td>
+                </tr>
+                <tr>
+                    <td>Star Wars: O Despertar da Força</td>
+                    <td>2015</td>
+                    <td>Walt Disney Studios</td>
+                    <td>U$2,069,521,700</td>
+                </tr>
+                <tr>
+                    <td>Vingadores: Guerra Infinita</td>
+                    <td>2018</td>
+                    <td>Walt Disney Studios</td>
+                    <td>U$2,048,359,754</td>
+                </tr>
+                <tr>
+                    <td>O Rei Leão</td>
+                    <td>2019</td>
+                    <td>Walt Disney Studios</td>
+                    <td>U$1,670,727,580</td>
+                </tr>
+                <tr>
+                    <td>Jurassic World</td>
+                    <td>2015</td>
+                    <td>Universal Pictures</td>
+                    <td>U$1,670,516,444</td>
+                </tr>
+                <tr>
+                    <td>Os Vingadores</td>
+                    <td>2012</td>
+                    <td>Walt Disney Studios</td>
+                    <td>U$1,518,815,515</td>
+                </tr>
+                <tr>
+                    <td>Velozes e Furiosos 7</td>
+                    <td>2015</td>
+                    <td>Universal Pictures</td>
+                    <td>U$1,515,341,399</td>
+                </tr>
+                <tr>
+                    <td>Frozen II</td>
+                    <td>2019</td>
+                    <td>Walt Disney Studios</td>
+                    <td>U$1,450,026,933</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+
+
+
+
+
+</body>
